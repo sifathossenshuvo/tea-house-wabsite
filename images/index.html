@@ -17,7 +17,8 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#F00',
                     }
                 }
             }
@@ -33,8 +34,8 @@
 
 <body class="font-manrope">
     <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row gap-12">
+        <div class="my-20">
+            <div class="flex justify-between items-center flex-col lg:flex-row gap-12">
 
 
                 <div>
@@ -45,10 +46,13 @@
                     <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste
                         Buds.
                     </p>
-                    <button class="btn btn-primary">Explore More</button>
+                    <button
+                        class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end border-none">Explore
+                        More <i class="fa-solid fa-arrow-trend-up"></i>
+                    </button>
                 </div>
                 <div>
-                    <img src="banner.png" class="max-w-sm rounded-lg" />
+                    <img src="banner.png" class="" />
 
                     <div class="-mt-16 drop-shadow-lg bg-white p-5 w-60">
 
@@ -136,7 +140,7 @@
         </section>
         <!-- super section -->
         <section
-            class="my-24 flex flex-col lg:flex-row gap-14 rounded-xl bg-gradient-to-r from-[#ff8938] to-[#f00] px-16 py-24">
+            class="my-24 flex flex-col lg:flex-row gap-14 rounded-xl bg-gradient-to-r from-gradient-start to-gradient-end px-16 py-24">
             <div class="flex items-center lg:pr-28">
                 <div class="space-y-5">
                     <h2 class="text-5xl font-extrabold text-white">Meet Our Super <br> Clients</h2>
@@ -210,44 +214,99 @@
                             <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
                             <div class="card-actions justify-start">
                                 <button class="btn btn-primary bg-white">Learn More</button>
-                              </div>
+                            </div>
                         </div>
                     </div>
                     <!-- card 2 -->
-                   
-                   <div class="card  bg-base-100 border-2 py-5 px-5">
-                    <figure><img class="" src="/images/news-2.png" alt="Shoes" /></figure>
-                    <div class="card-body text-left">
-                        <h3>Feb 05, 2027</h3>
-                        <h2 class="card-title">Collecting 8 points for <br> discount</h2>
-                        <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
-                        <div class="card-actions justify-start">
-                            <button class="btn btn-primary bg-white">Learn More</button>
-                          </div>
+
+                    <div class="card  bg-base-100 border-2 py-5 px-5">
+                        <figure><img class="" src="/images/news-2.png" alt="Shoes" /></figure>
+                        <div class="card-body text-left">
+                            <h3>Feb 05, 2027</h3>
+                            <h2 class="card-title">Collecting 8 points for <br> discount</h2>
+                            <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn btn-primary bg-white">Learn More</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
                     <!-- card 3 -->
-                   
-                   <div class="card  bg-base-100 border-2 py-5 px-5">
-                    <figure><img class="" src="/images/news-3.png" alt="Shoes" /></figure>
-                    <div class="card-body text-left">
-                        <h3>Feb 05, 2027</h3>
-                        <h2 class="card-title">Collecting 8 points for <br> discount</h2>
-                        <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
-                        <div class="card-actions justify-start">
-                            <button class="btn btn-primary bg-white">Learn More</button>
-                          </div>
+
+                    <div class="card  bg-base-100 border-2 py-5 px-5">
+                        <figure><img class="" src="/images/news-3.png" alt="Shoes" /></figure>
+                        <div class="card-body text-left">
+                            <h3>Feb 05, 2027</h3>
+                            <h2 class="card-title">Collecting 8 points for <br> discount</h2>
+                            <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn btn-primary bg-white">Learn More</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
 
         </section>
 
     </main>
-    <footer>
+    <footer class="px-4 lg:px-48 py-10 bg-base-200 text-base-content">
+        <div class="flex justify-between my-24">
+            <img src="cup.png" alt="">
+            <p>
+                <span>Ready to get strated?</span>
+                <button class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end border-none">Get
+                    Started</button>
+            </p>
 
+        </div>
+        <div class="footer">
+            <div>
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </div>
+            <div>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </div>
+            <div>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </div>
+            <div>
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="username@site.com"
+                            class="py-4 bg-transparent border-b-2 border-black outline-none" />
+                        <button
+                            class="btn rounded-full border-none text-white  bg-gradient-to-r from-gradient-start to-gradient-end"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path fill-rule="evenodd"
+                                    d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="mt-10 text-center">
+            <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        </div>
     </footer>
+
 </body>
 
 </html>
